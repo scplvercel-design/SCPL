@@ -49,7 +49,7 @@ function Breadcrumb({ title, currentPage, backgroundImage }: BreadcrumbProps) {
           <FadeUp delay={0.2} className="max-w-3xl">
             <p className="text-base md:text-lg text-blue-100/90 leading-relaxed">
               Discover our journey of innovation, commitment to quality, and
-              dedication to sustainable chemical solutions that shape the future
+              dedication to sustainable solutions that shape the future
               of industry.
             </p>
           </FadeUp>
