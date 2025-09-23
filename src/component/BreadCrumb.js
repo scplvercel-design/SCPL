@@ -48,9 +48,8 @@ function Breadcrumb({ title, currentPage, backgroundImage }: BreadcrumbProps) {
           {/* Page Description */}
           <FadeUp delay={0.2} className="max-w-3xl">
             <p className="text-base md:text-lg text-blue-100/90 leading-relaxed">
-              Discover our journey of innovation, commitment to quality, and
-              dedication to sustainable solutions that shape the future
-              of industry.
+              Discover our journey of innovation, uncompromising quality, and global expertise in agro trading,
+              as we deliver the finest products to meet the highest international standards.
             </p>
           </FadeUp>
         </div>
