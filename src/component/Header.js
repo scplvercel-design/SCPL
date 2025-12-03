@@ -233,6 +233,16 @@ function Header() {
                       Contact Us
                     </NavLink>
                   </li>
+
+                  <li className={`pr-4 ${isSticky ? "py-6" : "py-9"}`}>
+                    <a
+                      href="/brochure.pdf"
+                      download="brochure.pdf"
+                      className="border-b-2 border-transparent hover:border-yellow-600 transition-all duration-300"
+                    >
+                      Download Brochure
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -443,6 +453,16 @@ function Header() {
             <NavLink to="/contact" onClick={toggleMenu}>
               Contact Us
             </NavLink>
+          </li>
+
+          <li className="py-4 px-6 block">
+            <a
+              href="/brochure.pdf"
+              download="brochure.pdf"
+              onClick={toggleMenu}
+            >
+              Download Brochure
+            </a>
           </li>
         </ul>
       </div>

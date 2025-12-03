@@ -341,6 +341,18 @@ function Main() {
         </FadeUp>
       </div>
       {/* About us ends here */}
+
+      {/* Video Section */}
+      <div className="flex items-center justify-center w-full h-screen p-10">
+        <iframe
+          src="https://www.youtube.com/embed/PGkD90-NB8A?autoplay=0&mute=1&controls=0&rel=0&playsinline=1"
+          title="SCPL MASTER"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          className="w-full h-full object-contain"
+        ></iframe>
+      </div>
     </div>
   );
 }
